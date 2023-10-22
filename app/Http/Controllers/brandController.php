@@ -9,7 +9,7 @@ use App\Models\productModel;
 class brandController extends Controller
 {
     public function index(Request $request){
-        $limit = $request->limit?$request->limit:2;
+        $limit = $request->limit?$request->limit:5;
         $orderBy = $request->orderBy?$request->orderBy:'id';
         $orderType = $request->orderType?$request->orderType:'asc';
         $result = brandModel::sort($orderBy, $orderType)->filter($request->all())->paginate($limit);

@@ -59,7 +59,6 @@ div.content {
   <a href="/brand">Brand </a>
   <a href="/order">Order  </a>
   <a href="/curl"> Pixabay </a>
-  <a href="/dataTable"> dataTable </a>
   <a href="/curl/dragdrop"> jQuery Drag-Drop </a>
   <a href="/logout"> Logout </a>
 </div>
